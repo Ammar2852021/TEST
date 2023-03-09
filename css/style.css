@@ -37,7 +37,7 @@ margin: auto;}
 
 .HELLO , .NEW{font-family: system-ui; font-weight: 600;}
 
-.DS{margin: 10px;}
+
 .CREATE{width: 300px;height: 7vh; background-color: black; border-radius: 30px;margin-top: 2vh;}
 .CREATE a {color: white; text-decoration: none; font-family: system-ui; letter-spacing: 2px;}
 
@@ -55,7 +55,7 @@ margin: auto;}
 
 @media (max-width:768px) {
 
-    .LOGIN-img{margin-top: -10vh; height: 80vh;  width: 100% ;}
+    .LOGIN-img{margin-top: -10vh; height: 70vh;  width: 100% ;}
    
   
     .LOGIN-img{width: 100%; background-position: center center;  background-size: contain; background-repeat: no-repeat; }
