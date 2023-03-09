@@ -55,15 +55,18 @@ margin: auto;}
 
 @media (max-width:768px) {
 
-    .LOGIN-img{margin-top: -10vh; height: 70vh;  width: 100% ;}
+    .LOGIN-img{margin-top: -5vh; height: 60vh;  width: 100% ;}
    
   
     .LOGIN-img{width: 100%; background-position: center center;  background-size: contain; background-repeat: no-repeat; }
+
+
+    .LOGIN-input{margin-top: 5vh;}
 }
 
 @media (max-width:320px) {
 
-    .LOGIN-img{ margin-right: 100px; height: 70vh;}
+    .LOGIN-img{ margin-right: 100px; height: 55vh;}
     .LOGIN-img{width: 100%; background-position: center center;  background-size: contain; background-repeat: no-repeat; }
 
 }
