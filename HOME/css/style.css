@@ -33,7 +33,7 @@ margin-top: 4vh;
 font-weight: 200;}
 
 
-.logop{text-align: center;
+.logop , .P-LOGO{text-align: center;
 font-family:system-ui;
 margin-top: 2vh;
 font-weight: 500;}
@@ -51,7 +51,7 @@ sup{font-size: large; }
 
 
 .section{ display: grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-rows:  1fr 1fr 1fr;
 margin: auto; 
 grid-gap: 30px;}
 
@@ -59,7 +59,7 @@ grid-gap: 30px;}
 .link{
 font-family:system-ui;
 text-decoration: none;
-color: black;
+color: white;
 text-transform: capitalize;
 position: relative; top: 30%;
 text-align: center;
@@ -71,14 +71,14 @@ font-weight: 500;}
 width: 900px;
 height:50px;
 overflow: hidden;
-background-color: #ecf0f3;
+background-color: black;
+color: white;
 border-radius: 30px;
-box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
 border: 2px solid black;
 position: relative;}
 
 
-.top::before
+/* .top::before
 {content: " ";
 width: 30px;
 height: 30px;
@@ -86,7 +86,7 @@ border-radius: 50%;
 background-color: black;
 position: absolute;
 overflow: hidden;
-margin: 8px;}
+margin: 8px;} */
 
 
 .end-text{text-align: center;
@@ -100,6 +100,27 @@ font-weight: 500;}
 .top {width: 300px;}
 .Container::before{display: none;}
 
+.logo
+{text-align: left;
+font-family: 'Playfair Display SC', serif;
+margin: 10px;
+font-size: large;
+margin-top: 4vh;
+font-weight: 200;}
+
+.Box{border-left: 1px solid black; width: 250px;margin-left:15% ;margin-top: 5vh;}
+
+.END{
+display: block;  text-transform: uppercase; font-size: small; border-bottom:1px solid black ; width: 150px; margin: auto;margin-top: 3vh;}
+
+
+.P-LOGO{
+font-family:system-ui;
+text-align: left;
+margin-top: 2vh;
+margin-left: 2vh;
+font-size:30px;
+font-weight: 400;}
 
 .link{left: 42%;
 font-weight: 500;}}
