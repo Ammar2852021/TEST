@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  /* Generic */
+  body {
+
+text-align: center;
+    background-color: #ecf0f3;}
+  
+
+  .Container{width: 100%;
+     height:auto;
+    display: grid;
+grid-template-rows: 1fr 3fr 1fr 11fr 11fr;}
+
+
+
+    /* .TOP-BUTTON{background-color: black;} */
+.user{width: 40px; margin: 15px; border-radius: 50%; background-color: #ecf0f3;}
+input[type="search"]{float: right;
+     width: 92%;
+      margin: 15px;
+       height: 6vh;
+        border-radius: 20px;
+    outline: none;
+    border: none;
+color: black;
+padding-left:10px ;
+padding-right: 10px;}
+
+
+
+
+
+.COVER-IMG{background-color: black; margin: 10px; border-radius: 20px;
+background-image: url(https://c0.wallpaperflare.com/preview/350/716/16/bunch-of-vegetables.jpg);
+background-size: cover;
+background-position: center;
+border: 5px solid white;}
+
+
+
+
+
+
+
+.section{ display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+.vegetables,.Fruits,.Exotics{
+  
+       display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    }
+
+
+
+.linke{color: #ecf0f3;
+ text-decoration: none;
+  position: relative;
+   top: 4.3vh;
+    font-family: system-ui;
+    font-weight: bold;
+     letter-spacing: 1px;}
+
+
+
+
+
+
+
+     .Card{
+margin: 10px;
+    background-color: white;
+    display: grid; 
+    grid-template-rows: 2fr 1fr; 
+    border-radius: 10px; 
+    position: relative;}
+
+.img-Card{background-color: #ecf0f3; margin: 10px; border-radius: 20px; 
+
+background-position: center center;
+background-size: 200px;
+background-repeat: no-repeat;
+}
+
+
+
+.icon{width: 25px; height: 25px;
+     border-radius: 50%;
+       position: absolute;
+        right: 10px;
+         bottom:10px;}
+
+
+
+
+
+
+.Content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr  ;}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .Content{display: grid; grid-template-columns: 1fr 1fr  ;}
+
+    .Container{width: 100%;
+        height:auto;
+       display: grid;
+   grid-template-rows: 0.2fr 1.3fr 0.5fr 10fr 10fr;}
+   
+    
+   input[type="search"]{width: 65%;}
+
+
+
+}
+
+
+
+
+.img{width: 200px;}
+
+.bxs-plus-circle{color: black; font-size: x-large; margin-top: 1px; }
+
+.name {text-align: left;
+    
+  
+    margin: 10px 0px 0px 20px; font-weight: bold; font-family: system-ui; font-size: 18px;}
+
+
+
+
+    .EGP{text-align: left;
+    
+  
+        margin: 10px 0px 0px 20px; font-weight: 500; font-family: system-ui; font-size: 16px;}
+
+
+
+
+        .KG {text-align: left;
+    
+  
+            margin: 10px 0px 0px 20px; font-weight: 500; font-family: system-ui; font-size: 16px;}
+        
