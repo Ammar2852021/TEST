@@ -6,4 +6,11 @@ let Cer = document.getElementById("Cer");
 console.log(Cer);
 
 Certificate.addEventListener("click", function () {
-  Cer.classList.toggle("hideng")})
+
+  Cer.classList.toggle("hideng")
+
+//   Certificate.style.background='red'
+
+
+
+})
