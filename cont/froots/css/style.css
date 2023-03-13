@@ -122,6 +122,9 @@ position: relative;}
 
 
 .img-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 border: 1px solid black;
 background-color: #e7e7e7;
@@ -251,7 +254,7 @@ border: 5px solid #ecf0f3;
 
 
 
-.img{width: 100%; size: cover; }
+.img{width: 90%; }
 
 .bxs-plus-circle{color: black;
 font-size: x-large;
