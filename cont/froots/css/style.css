@@ -35,7 +35,7 @@ font-family: system-ui;}
 .Container{width: 100%;
 height:auto;
 display: grid;
-grid-template-rows: 1fr 1fr 3fr 15fr;}
+grid-template-rows: 1fr  3fr 18fr;}
 
 /* end  Container */
 
@@ -66,7 +66,7 @@ background-position: center;}
 
 
 
-.section{ display: grid; grid-template-columns: 1fr 1fr 1fr; }
+.section{ display: grid; grid-template-columns: 1fr 1fr 1fr;display: none; }
 
 .vegetables,.Fruits,.Exotics{
 
@@ -291,18 +291,20 @@ margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16
 
 
 
+
 @media screen and (max-width:1115px)and (min-width:767px)
 
 {
 
 
+   .section{display: none;}
 
 .Content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr ;}
 
 .Container{width: 100%;
-height:auto;
-display: grid;
-grid-template-rows: 1fr 0.8fr 2fr 6fr 6fr;}
+    height:auto;
+    display: grid;
+    grid-template-rows: 1fr  3fr 18fr;}
 
 
 
@@ -317,7 +319,4 @@ position: absolute;
 border-radius: 50%;
 margin-left: -80px;
 margin-top: 2.2vh;
-border: 5px solid #ecf0f3;}
-
-
-}
+border: 5px solid #ecf0f3;}}
