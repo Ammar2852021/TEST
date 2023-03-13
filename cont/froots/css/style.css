@@ -297,7 +297,7 @@ margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16
 
 
 
-.icons{width: 350px; height: 40vh;  z-index: 1111;
+.icons{ width: 90%; height: 40vh;  z-index: 1111;
 position: absolute;
 bottom: 10vh;
 background-color: black;
