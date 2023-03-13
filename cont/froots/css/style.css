@@ -30,12 +30,12 @@ font-family: system-ui;}
 
 
 /* start  Container */
-  
+
 
 .Container{width: 100%;
 height:auto;
 display: grid;
-grid-template-rows: 1fr 1fr 3fr 8fr 8fr;}
+grid-template-rows: 1fr 1fr 3fr 15fr;}
 
 /* end  Container */
 
@@ -66,71 +66,76 @@ background-position: center;}
 
 
 
-.section{ display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.section{ display: grid; grid-template-columns: 1fr 1fr 1fr; }
 
 .vegetables,.Fruits,.Exotics{
-  
-       display: inline-block;
-    background-color: black;
-    border-radius: 10px;
-    margin: 10px;
-    }
+
+display: inline-block;
+background-color: black;
+border-radius: 10px;
+width: 80px;
+height: 80px;
+margin: auto;
+margin-bottom: 2vh;}
 
 
 
 .linke{color: #ecf0f3;
- text-decoration: none;
-  position: relative;
-   top: 4.3vh;
-    font-family: system-ui;
-    font-weight: bold;
-     letter-spacing: 1px;}
+text-decoration: none;
+position: relative;
+top: 4.3vh;
+font-family: system-ui;
+font-weight: bold;
+letter-spacing: 1px;}
 
 
-     .COVER-IMG{ position: relative;width: 93%; margin-left: 90px;margin-bottom: 5vh;}
-
-
-
-     .COVER-IMG .roll
-     {
-         width: 200px;
-         height: 200px;
-         background-color: black;
-         position: absolute;
-         border-radius: 50%;
-         margin-left: -85px;
-     margin-top: -2vh;
-     border: 5px solid #ecf0f3;
-     }
+.COVER-IMG{ position: relative;width: 93%; margin-left: 90px;margin-bottom: 5vh;}
 
 
 
-     .Card{
-        margin: 20px;
-            background-color: #e7e7e7;
-            border: 1px solid black;
+.COVER-IMG .roll
+{
+width: 200px;
+height: 200px;
+background-image:url(/TEST/cont/froots/img/Vegetable.png) ;
+background-color: #e7e7e7;
+background-size: cover;
+background-position: center center;
+position: absolute;
+border-radius: 50%;
+margin-left: -85px;
+margin-top: -2vh;
+border: 5px solid #ecf0f3;
+}
 
-            display: grid; 
-            grid-template-rows: 1fr 1fr; 
-            border-radius: 50px; 
-            position: relative;}
+
+
+.Card{
+margin: 20px;
+background-color: #e7e7e7;
+border: 1px solid black;
+
+display: grid; 
+grid-template-rows: 1fr 1fr; 
+border-radius: 50px; 
+position: relative;}
 
 
 .img-Card{
-    
+
 border: 1px solid black;
 background-color: #e7e7e7;
 
-    border-radius: 50%; height: 110px; width: 110px; overflow: hidden; margin-top: -3vh; margin-left: -10px;}
+border-radius: 50%; height: 110px; width: 110px; overflow: hidden; margin-top: -3vh; margin-left: -10px;}
 
 
 
 .icon{width: 40px; height: 6vh;
-     border-radius: 30px 0px 10px 0px;
-       position: absolute;
-        right: 5px;
-       
-         bottom:10px;}
+border-radius: 30px 0px 10px 0px;
+position: absolute;
+right: 5px;
+
+bottom:10px;}
 
 
 
@@ -140,13 +145,13 @@ background-color: #e7e7e7;
 .Content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
 
 
-
+.COVER-IMG{display: grid; grid-template-columns: 11fr 1fr;}
 
 .TOP{width: 50px; height:50px; background-color: black; position: fixed; z-index: 999;
-    border-radius: 50%;
-            
-    bottom: 2px;
-    margin-left:4vh ;}
+border-radius: 50%;
+
+bottom: 2px;
+margin-left:4vh ;}
 
 
 ul{display: inline-block; list-style-position:none ; }
@@ -155,29 +160,32 @@ ul i {display: inline-block;}
 
 
 
+.Vegetable-text{color: #e7e7e7; font-size: 50px; text-transform: uppercase; letter-spacing: 5px;}
 
-
+.titel{  margin: auto;}
 
 
 
 
 @media screen and (max-width:768px) {
-    .Content{display: grid; grid-template-columns: 1fr 1fr ;}
+.Content{display: grid; grid-template-columns: 1fr 1fr ;}
 
-    .Container{width: 100%;
-        height:auto;
-       display: grid;
-   grid-template-rows: 0.2fr 0.5fr  1fr  10fr 10fr;}
-   
-    
-   input[type="search"]{width: 65%;}
+.Container{width: 100%;
+height:auto;
+display: grid;
+grid-template-rows: 0.2fr 0.3fr  0.5fr  10fr ;}
 
 
-   .TOP{width: 90%; height: 8vh; background-color: black; position: fixed; z-index: 999;
-            
-  
-    margin-left:2.5vh  ;
-        border-radius: 50px;}
+.Vegetable-text{font-size: 30px; margin-left: 50px;}
+
+input[type="search"]{width: 65%;}
+
+
+.TOP{width: 90%; height: 8vh; background-color: black; position: fixed; z-index: 999;
+
+
+margin-left:2.5vh  ;
+border-radius: 50px;}
 
 
 ul{display: inline-block; list-style-position:none ; }
@@ -189,36 +197,36 @@ ul i {display: inline-block;}
 
 
 .Card{
-    margin: 20px;
-        background-color: #e7e7e7;
-        display: grid; 
-        grid-template-rows: 1fr 1.5fr; 
-        border: 1px solid black;
-        border-radius: 20px 50px 50px 50px; 
-        position: relative;}
+margin: 20px;
+background-color: #e7e7e7;
+display: grid; 
+grid-template-rows: 1fr 1.5fr; 
+border: 1px solid black;
+border-radius: 20px 50px 50px 50px; 
+position: relative;}
 
 
-        .img-Card{background:none;  
-            
-            border: 1px solid black;
-            background-color: #e7e7e7;
-            border-radius: 50%; height: 100px; width: 100px; overflow: hidden; margin-top: -3vh; margin-left: -5px;}
+.img-Card{background:none;  
+
+border: 1px solid black;
+background-color: #e7e7e7;
+border-radius: 50%; height: 100px; width: 100px; overflow: hidden; margin-top: -3vh; margin-left: -5px;}
 
 
- 
-   
 
 
-          .section{ display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90%;margin: auto;}
+
+
+.section{ display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90%;margin: auto;}
 
 .vegetables,.Fruits,.Exotics{
-  width: 70px;
-  height: 70px;
-       display: inline-block;
-    background-color: black;
-    border-radius: 10px;
-    margin: auto;
-    }
+width: 70px;
+height: 70px;
+display: inline-block;
+background-color: black;
+border-radius: 10px;
+margin: auto;
+}
 
 
 
@@ -228,12 +236,12 @@ ul i {display: inline-block;}
 
 .COVER-IMG .roll
 {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: -45px;
+width: 100px;
+height: 100px;
+background-color: black;
+position: absolute;
+border-radius: 50%;
+margin-left: -45px;
 margin-top: 2.2vh;
 border: 5px solid #ecf0f3;
 }
@@ -243,37 +251,32 @@ border: 5px solid #ecf0f3;
 
 
 
-.img{width: 100%;}
+.img{width: 100%; size: cover; }
 
 .bxs-plus-circle{color: black;
-     font-size: x-large;
-      margin-top: 1.5vh; }
+font-size: x-large;
+margin-top: 1.5vh; }
 
 .name {text-align: left;
-    
-  
-    margin: 10px 0px 0px 8px; font-weight: bold; font-family: system-ui; font-size: 18px;}
+
+
+margin: 10px 0px 0px 8px; font-weight: bold; font-family: system-ui; font-size: 18px;}
 
 
 
 
-    .EGP{text-align: left;
-    
-  
-        margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16px;}
+.EGP{text-align: left;
+
+
+margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16px;}
 
 
 
 
-        .KG {text-align: left;
-    
-  
-            margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16px;}
-        
+.KG {text-align: left;
 
 
-
-
+margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16px;}
 
 
 
@@ -283,35 +286,38 @@ border: 5px solid #ecf0f3;
 
 
 
-            @media screen and (max-width:1115px)and (min-width:767px)
-            
-            {
-        
-        
-        
-            .Content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr ;}
 
-            .Container{width: 100%;
-                height:auto;
-                display: grid;
-                grid-template-rows: 1fr 0.8fr 2fr 6fr 6fr;}
-                
-        
 
-                .COVER-IMG{ position: relative;width: 88%; margin-left: 90px;margin-bottom: 5vh;}
+
+
+
+@media screen and (max-width:1115px)and (min-width:767px)
+
+{
+
+
+
+.Content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr ;}
+
+.Container{width: 100%;
+height:auto;
+display: grid;
+grid-template-rows: 1fr 0.8fr 2fr 6fr 6fr;}
+
+
+
+.COVER-IMG{ position: relative;width: 88%; margin-left: 90px;margin-bottom: 5vh;}
 
 
 .COVER-IMG .roll
-{
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: -80px;
+{width: 200px;
+height: 200px;
+background-color: black;
+position: absolute;
+border-radius: 50%;
+margin-left: -80px;
 margin-top: 2.2vh;
-border: 5px solid #ecf0f3;
+border: 5px solid #ecf0f3;}
+
+
 }
-        
-        
-        }
