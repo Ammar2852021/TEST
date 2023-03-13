@@ -171,6 +171,16 @@ ul i {display: inline-block;}
 
 
 @media screen and (max-width:768px) {
+
+
+    .icons{ width: 90%; height: 40vh;  z-index: 1111;
+        position: absolute;
+        bottom: 10vh;
+        background-color: black;
+        right: 10px;
+        border-radius: 10px;
+        display: none;}
+
 .Content{display: grid; grid-template-columns: 1fr 1fr ;}
 
 .Container{width: 100%;
@@ -297,7 +307,7 @@ margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16
 
 
 
-.icons{ width: 90%; height: 40vh;  z-index: 1111;
+.icons{width: 350px; height: 40vh;  z-index: 1111;
 position: absolute;
 bottom: 10vh;
 background-color: black;
