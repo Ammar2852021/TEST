@@ -102,8 +102,8 @@ bottom:10px;}
 
 .COVER-IMG{display: grid; grid-template-columns: 11fr 1fr;}
 
-.TOP{width: 50px; height:50px; background-color: black; position: fixed; z-index: 999;
-border-radius: 50%;
+.TOP{width: 250px; height:50px; background-color: black; position: fixed; z-index: 999;
+border-radius: 30px;
 right: 20px;
 bottom: 20px;
 margin-left:4vh ;}
@@ -135,13 +135,13 @@ input[type="search"]{width: 85%}}
 
 
 
-.icons{width: 90%; height: 40vh; 
+.icons{width: 100%; height: auto; 
     transform: translate3d(0, 0, 0);
     transition: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
     position: absolute;
     bottom: 7vh;
     background-color: black;
-    right: 10px;
+    right: 0px;
     border-radius: 30px 30px 0px 0px;
     display: none;}
     
@@ -151,15 +151,18 @@ input[type="search"]{width: 85%}}
 
 
 
-
-
-
-
-
+    .view{display: block;  text-align: center;color: white;
+        margin: 10px;
+        font-size: x-large;
+        font-weight: 600;
+        cursor: pointer;
+    font-family: system-ui;}
 
 
 
 @media screen and (max-width:768px) {
+
+    
 
 
     .icons{width: 100%; height: auto; 
@@ -271,7 +274,6 @@ margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16
 
 
 margin: 5px 0px 0px 8px; font-weight: 500; font-family: system-ui; font-size: 16px;}
-
 
 
 
