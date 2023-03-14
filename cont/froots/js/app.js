@@ -9,7 +9,10 @@ Certificate.addEventListener("click", function () {
 
   Cer.classList.toggle("hideng")
 
-//   Certificate.style.background='red'
+
+  
+  Certificate.classList.toggle("bordar")
+
 
 
 
